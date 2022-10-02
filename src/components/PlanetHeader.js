@@ -28,6 +28,5 @@ const styles = StyleSheet.create({
         borderBottomWidth: .2,
         flexDirection:'row',
         alignItems:'center',
-
     }
 })

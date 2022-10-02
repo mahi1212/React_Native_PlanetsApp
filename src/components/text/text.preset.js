@@ -3,19 +3,16 @@ import { typography } from "../../theme/typography";
 
 export const BASE = {
     fontFamily: typography.primary,
-    fontSize: 16,
     color: colors.white
 }
 
 export const BASE_BOLD = {
     fontFamily: typography.primaryBold,
-    fontSize: 16,
     color: colors.white
 }
 
 export const BOLD = {
     fontFamily:typography.bold,
-    fontSize: 16,
     color: colors.white
 }
 
@@ -37,5 +34,10 @@ export const presets = {
     h4: {
         ...BASE,
         fontSize: 16,
+    },
+    small: {
+        ...BASE,
+        fontSize: 14,
+        color:colors.gray
     }
 }
