@@ -1,9 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, View } from 'react-native';
-import { colors } from './src/theme/colors';
-import { spacing } from './src/theme/spacing';
 import { useFonts } from 'expo-font';
-import { typography } from './src/theme/typography';
 import Text from './src/components/text/text';
 import { NavigationContainer, DarkTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
